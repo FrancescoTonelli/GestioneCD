@@ -16,7 +16,10 @@
         <TextBox HorizontalAlignment="Left" Height="23" Margin="401,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
         <Label Content="Inserisci durata (in secondi):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,110,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="450,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="CREAZIONE CD" HorizontalAlignment="Left" Margin="428,163,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="CREAZIONE CD" HorizontalAlignment="Left" Margin="428,161,0,0" VerticalAlignment="Top" FontSize="24"/>
         <Label Content="Inserisci qui sotto l'indice di ogni brano che vuoi includere, separandli con &#xD;&#xA;una virgola (gli indici partono da 1):" HorizontalAlignment="Left" Margin="294,208,0,0" VerticalAlignment="Top" Width="468" Height="42"/>
+        <TextBox x:Name="txtListaBrani" HorizontalAlignment="Left" Height="23" Margin="294,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="468"/>
+        <ListBox HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="468" Margin="294,318,0,0"/>
+        <Label Content="Lista CD" HorizontalAlignment="Left" Margin="474,276,0,0" VerticalAlignment="Top" FontSize="24"/>
     </Grid>
 </Window>
