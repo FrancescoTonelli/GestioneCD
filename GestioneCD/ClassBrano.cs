@@ -6,34 +6,72 @@ using System.Threading.Tasks;
 
 namespace GestioneCD
 {
-    class ClassBrano
+    class Brano
     {
         //ATTRIBUTI
-        string _titolo, _autore;
-        int _durata; //in secondi
+        private string _nome;
+        private string _autore;
+        private int _durata;
 
         //COSTRUTTORE
-        public ClassBrano (string title, string autor, int time)
+        public Brano(string nome, string autore, int durata) ///LA DURATA è IN SECONDI
         {
-            _titolo = title;
-            _autore = autor;
-            _durata = time;
+            try
+            {
+                SetNome(nome);
+                SetAutore(autore);
+                SetDurata(durata);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public string Titolo
+        public string GetNome()
         {
-            get { return _titolo; }
-            set { _titolo = value; }
+            return _nome;
         }
-        public string Autore
+
+        public string GetAutore()
         {
-            get { return _autore; }
-            set { _autore = value; }
+            return _autore;
         }
-        public int Durata
+
+        public int GetDurata()
         {
-            get { return _durata; }
-            set { _durata = value; }
+            return _durata;
+        }
+
+        public void SetNome(string nome)
+        {
+            _nome = nome;
+        }
+
+        public void SetAutore(string autore)
+        {
+            _autore = autore;
+        }
+
+        public void SetDurata(int durata)
+        {
+            if (durata <= 0)
+                throw new Exception("Durata sotto lo 0");
+            _durata = durata;
+        }
+
+        public override string ToString()
+        {
+            return GetNome() + ", di " + GetAutore() + ", durata: " + GetDurata() + "sec";
+        }
+
+        public bool shortSong(int durata)
+        {
+            if (GetDurata() >= durata)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }
