@@ -5,21 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestioneCD"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1122.388">
     <Grid>
-        <ListBox HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="259"/>
-        <Button Content="Crea" HorizontalAlignment="Left" Margin="614,71,0,0" VerticalAlignment="Top" Width="109" Height="49"/>
+        <ListBox x:Name="lstBrani" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="259"/>
+        <Button x:Name="btnAdd" Content="Crea" HorizontalAlignment="Left" Margin="614,71,0,0" VerticalAlignment="Top" Width="109" Height="49" Click="btnAdd_Click"/>
         <Label Content="CREAZIONE BRANO" HorizontalAlignment="Left" Margin="401,10,0,0" VerticalAlignment="Top" FontSize="24"/>
         <Label Content="Inserisci nome:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,54,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="401,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="23" Margin="401,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
         <Label Content="Inserisci autore:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,82,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="401,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="23" Margin="401,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
         <Label Content="Inserisci durata (in secondi):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,110,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="450,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="CREAZIONE CD" HorizontalAlignment="Left" Margin="428,161,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <Label Content="Inserisci qui sotto l'indice di ogni brano che vuoi includere, separandli con &#xD;&#xA;una virgola (gli indici partono da 1):" HorizontalAlignment="Left" Margin="294,208,0,0" VerticalAlignment="Top" Width="468" Height="42"/>
-        <TextBox x:Name="txtListaBrani" HorizontalAlignment="Left" Height="23" Margin="294,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="468"/>
-        <ListBox HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="468" Margin="294,318,0,0"/>
-        <Label Content="Lista CD" HorizontalAlignment="Left" Margin="474,276,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="txtDurata" HorizontalAlignment="Left" Height="23" Margin="450,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="CREAZIONE CD" HorizontalAlignment="Left" Margin="844,114,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Inserisci qui sotto l'indice di ogni brano che vuoi includere,&#xD;&#xA; separandli con una virgola (gli indici partono da 1):" HorizontalAlignment="Left" Margin="765,161,0,0" VerticalAlignment="Top" Width="339" Height="42"/>
+        <TextBox x:Name="txtListaBrani" HorizontalAlignment="Left" Height="23" Margin="808,208,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250"/>
+        <ListBox x:Name="lstCD" HorizontalAlignment="Left" Height="161" VerticalAlignment="Top" Width="468" Margin="294,248,0,0"/>
+        <Label Content="Lista CD" HorizontalAlignment="Left" Margin="474,189,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Button x:Name="btnCreaCd" Content="CreaCD" HorizontalAlignment="Left" Margin="844,318,0,0" VerticalAlignment="Top" Width="174" Click="btnCreaCd_Click" Height="38"/>
+        <Label Content="Inserisci nome:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="808,244,0,0"/>
+        <TextBox x:Name="txtNome_CD" HorizontalAlignment="Left" Height="23" Margin="915,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
+        <Label Content="Inserisci autore:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="808,272,0,0"/>
+        <TextBox x:Name="txtAutore_CD" HorizontalAlignment="Left" Height="23" Margin="915,276,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
     </Grid>
 </Window>

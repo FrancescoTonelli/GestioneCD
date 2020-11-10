@@ -1,0 +1,15 @@
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\bin\Debug\GestioneCD.exe.config
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\bin\Debug\GestioneCD.exe
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\bin\Debug\GestioneCD.pdb
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.csprojAssemblyReference.cache
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\MainWindow.g.cs
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\App.g.cs
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD_MarkupCompile.cache
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD_MarkupCompile.lref
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\MainWindow.baml
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.g.resources
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.Properties.Resources.resources
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.csproj.GenerateResource.cache
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.csproj.CoreCompileInputs.cache
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.exe
+C:\Users\tonbr\Desktop\GestioneCD\GestioneCD\obj\Debug\GestioneCD.pdb
